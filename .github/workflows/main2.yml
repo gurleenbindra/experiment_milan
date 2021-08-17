@@ -15,7 +15,7 @@ jobs:
           git config --global user.name "gurleenbindra"
           git add -A
           git commit -m "Added data.json"
-      - uses: gurleenbindra/heroku-deploy@master
+      - uses: gurleenbindra/experiment_milan@master
         with:
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
           heroku_app_name: ${{ secrets.HEROKU_APP_NAME }}
@@ -38,7 +38,7 @@ jobs:
           git config --global user.name "gurleenbindra"
           git add -A
           git commit -m "Added index.html"
-      - uses: gurleenbindra/heroku-deploy@master
+      - uses: gurleenbindra/experiment_milan@master
         with:
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
           heroku_app_name: ${{ secrets.HEROKU_APP_NAME }}
@@ -60,7 +60,7 @@ jobs:
           git config --global user.name "gurleenbindra"
           git add -A
           git commit -m "Added data.json"
-      - uses: gurleenbindra/heroku-deploy@master
+      - uses: gurleenbindra/experiment_milan@master
         with:
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
           heroku_app_name: ${{ secrets.HEROKU_APP_NAME }}
@@ -81,7 +81,7 @@ jobs:
           git config --global user.name "gurleenbindra"
           git add -A
           git commit -m "Added data.json"
-      - uses: gurleenbindra/heroku-deploy@master
+      - uses: gurleenbindra/experiment_milan@master
         with:
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
           heroku_app_name: ${{ secrets.HEROKU_APP_NAME }}
